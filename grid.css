@@ -1,0 +1,210 @@
+
+  .navbar{
+    display: grid;
+    grid-template-rows: auto;
+    background-color:cornflowerblue;
+    height: 11vh;
+  }
+  nav{
+    display: flex;
+    justify-content:space-between;
+    
+  } 
+
+nav ul{
+   
+    list-style: none;
+
+
+}
+nav ul li{
+    display: inline-block;
+    text-transform: capitalize;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 40px;
+    color: wheat;
+    
+}
+nav ul li a:hover{
+    color: black;
+}
+
+.contact{
+
+    border: 2px solid transparent ;
+    border-radius: 30px;
+    background-color: coral;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    
+    
+    
+    
+
+}
+.contact:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    
+
+}
+.contact a:hover{
+    color: black;
+}
+
+.contact a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    
+}
+.box{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    padding: 160px;
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+    
+
+    
+}
+.card1{
+    background-color: darkslateblue;
+    
+    
+    width: 330px;
+    height: 40vh;
+    border-radius: 15px;
+    
+    text-align: center;
+   
+
+    
+    
+}
+.card1 h1{
+
+    color: gainsboro;
+
+}
+.card2{
+    background-color: green;
+    padding: px;
+    width: 330px;
+    height: 40vh;
+    border-radius: 15px;
+    text-align: center;
+    
+    
+
+}
+.card2 h1{
+    color: gainsboro;
+
+}
+.card3{
+    background-color: rgba(255, 20, 145, 0.616);
+    
+    width: 330px;
+    height: 40vh;
+    border-radius: 15px;
+    text-align: center;
+    
+   
+}
+.card3 h1{
+    color: gainsboro;
+    
+}
+.image{
+    display: grid;
+    grid-template-rows: 500px;
+}
+.image img{
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    height: 85vh;
+    margin-top: -100px;
+}
+.previous {
+    
+    position: absolute;
+    right: 50px;
+
+    top: 750px;
+    
+
+
+
+
+
+}
+.previous:hover{
+    background-color: transparent;
+    border: 2px solid black;
+}
+.next{
+   
+    position: absolute;
+    left: 50px;
+
+    top: 750px;
+
+
+}
+.next:hover{
+    background-color: transparent;
+    border: 2px solid black;
+}
+.image button{
+    background-color: rgb(21, 255, 0);
+    border: 2px solid transparent;
+    color: black;
+    border-radius: 15px;
+    width: 110px;
+    height: 7vh;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: gray;
+    
+
+    
+    
+    
+}
+.footer h4 a{
+
+    text-decoration: none;
+    color: grey;
+    
+
+   
+
+}
+.footer p{
+    font-size: 20px;
+}
+body{
+    background-color: gray;
+}
+
